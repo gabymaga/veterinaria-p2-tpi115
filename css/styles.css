@@ -31,7 +31,8 @@ summary {
 
 header 
 {
-    background-color: #00aa00;
+    background-color: white;
+    box-shadow: 0px 0px 10px #848383;
 }
 
 header #h_img {
@@ -65,22 +66,31 @@ nav ul li {
     display: inline-block;
     padding-bottom: 10px;
 }
-nav ul li img {
+nav img {
     width: 24px;
 }
 nav ul li a {
-    padding: 10px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
+nav #nav_izq ul li a {
+    padding: 10px;
+}
+
 nav ul li a:hover {
-    background-color: #008800;
+    background-color: rgba(0,0,0,0.2);
     transition-duration: 1s;
 }
 
 nav #nav_der {
     float: right;
+    margin-right: 1em;
 }
+nav #nav_der a{
+    /*padding: 10px;*/
+    margin-right: 10px;
+}
+
 nav #nav_izq {
     float: left;
 }
