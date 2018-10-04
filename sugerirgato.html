@@ -38,16 +38,15 @@
     </header>
     <section>
         <article>
-            <h2>Lista de gatos</h2>
+            <h2>Sugerir Gato</h2>
             
-            <ul>
-            	<li><a href="gato1.html">Gato1</a></li>
-            	<li><a href="gato2.html">Gato2</a></li>
-            	<li><a href="gato3.html">Gato3</a></li>
-            	<li><a href="gato4.html">Gato4</a></li>
-            </ul>
-            
-            <p>Si desea sugerir un gato por favor llene el siguiente <a href="sugerirgato.html">Formulario</a</p>
+            <form method="get">
+            	<input class="form_t" type="text" name="nombre" placeholder="Nombre" />
+            	<input class="form_t" type="text" name="email" placeholder="Email" />
+            	<input class="form_t" type="text" name="gato" placeholder="Gato sugerido" />
+            	<textarea class="form_t" name="gatodescripcion" placeholder="Descripcion del gato"></textarea>
+            	<input id="submit" type="submit" name="nombre" value="Enviar" />
+            </form>
         </article>
     </section>
     <footer>

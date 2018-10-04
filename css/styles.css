@@ -1,6 +1,10 @@
 /* 
     Normalizacion
 */
+@font-face {
+    font-family: catFont;
+    src: url('../fonts/catFont.otf');
+}
 
 html {
 	-webkit-text-size-adjust: none;
@@ -41,7 +45,7 @@ header #h_img {
 }
 header #h_image
 {
-    width: 100px;
+    width: 140px;
     margin-right: 20px;
     margin-top: 15px;
     margin-left: 20px;
@@ -49,6 +53,17 @@ header #h_image
 header #titulos {
     float: left;
     display: inline-block;
+}
+header #titulos h1 {
+    font-family: catFont;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+header #titulos h4 {
+    margin-top: 0px;
+    font-family: catFont;
+    font-size: 28px;
+    margin-bottom: 0px;
 }
 nav {
     width: 100%;
@@ -103,4 +118,32 @@ footer {
     background-color: #333;
     color: white;
     padding: 30px;
+}
+footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+section form {
+    width: 50%;
+}
+section form .form_t {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+    padding: 8px;
+}
+section form #submit {
+    background-color: black;
+    padding:10px;
+    color: white;
+    border-radius: 9px;
+    border: 0px solid #000;
+    width: 100%;
+}
+
+section form #submit:hover {
+    background-color: #555;
 }
