@@ -203,3 +203,117 @@ article div div div p:hover {
     height: 100px !important;
     width: 300px !important;
 }
+
+article #box {
+	overflow:hidden;
+}
+
+article #content {
+	font-size:15px;
+	line-height:20px;
+	padding: 0 20px;
+	text-align:justify;
+}
+
+article #left {
+	float:left;
+	width:11cm;
+}
+
+article #left1 {
+	float:left;
+	width:12cm;
+}
+
+article div div div h3 {
+	text-align:center;
+	background-color:#BB8FCE;
+	border-radius:5px;
+}
+
+article div div div p {
+	text-align:center;
+	background-color:#AED6F1;
+	border-radius:5px;
+}
+
+article div div div h3:hover {
+	background-color:#A569BD;
+}
+
+article div div div p:hover {
+	background-color:#5DADE2;
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.todo {
+	height:350px;
+	margin-top:1cm;
+}
+
+.content-all{
+	margin:auto;
+	perspective:1000px;
+	width:210px;
+	position:relative;
+}
+
+.content-carrousel{
+	width:100%;
+	position:absolute;
+	animation: rotar 25s infinite linear;
+	transform-style:preserve-3d;
+}
+
+.content-carrousel figure{
+	width:100%;
+	position:absolute;
+}
+
+.content-carrousel img{
+	width:100%;
+	height:200px;
+}
+
+.content-carrousel figure:nth-child(1){transform:rotatey(0deg) translatez(300px);}
+.content-carrousel figure:nth-child(2){transform:rotatey(40deg) translatez(300px);}
+.content-carrousel figure:nth-child(3){transform:rotatey(80deg) translatez(300px);}
+.content-carrousel figure:nth-child(4){transform:rotatey(120deg) translatez(300px);}
+.content-carrousel figure:nth-child(5){transform:rotatey(160deg) translatez(300px);}
+.content-carrousel figure:nth-child(6){transform:rotatey(200deg) translatez(300px);}
+.content-carrousel figure:nth-child(7){transform:rotatey(240deg) translatez(300px);}
+.content-carrousel figure:nth-child(8){transform:rotatey(280deg) translatez(300px);}
+.content-carrousel figure:nth-child(9){transform:rotatey(320deg) translatez(300px);}
+.content-carrousel figure:nth-child(10){transform:rotatey(360deg) translatez(300px);}
+
+@-webkit-keyframes rotar{
+	from{transform:rotatey(0deg);
+	}to{transform:rotatey(360deg);
+	}
+}
+
+.h3{
+	text-align:center;
+	margin:auto;
+	font-size:0.8cm;
+	width:6cm;
+	background-color:#58D68D;
+	border-radius:10px;
+}
+
+.h2{
+	margin-bottom:1cm;
+}
+
+.a:link{
+	text-decoration:none;
+}
+
+.content-carrousel:hover{
+	animation-play-state:paused;
+}
