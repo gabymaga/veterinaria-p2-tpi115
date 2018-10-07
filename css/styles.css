@@ -148,47 +148,6 @@ section form #submit:hover {
     background-color: #555;
 }
 
-article #box {
-	overflow:hidden;
-}
-
-article #content {
-	font-size:15px;
-	line-height:20px;
-	padding: 0 20px;
-	text-align:justify;
-}
-
-article #left {
-	float:left;
-	width:11cm;
-}
-
-article #left1 {
-	float:left;
-	width:12cm;
-}
-
-article div div div h3 {
-	text-align:center;
-	background-color:#BB8FCE;
-	border-radius:5px;
-}
-
-article div div div p {
-	text-align:center;
-	background-color:#AED6F1;
-	border-radius:5px;
-}
-
-article div div div h3:hover {
-	background-color:#A569BD;
-}
-
-article div div div p:hover {
-	background-color:#5DADE2;
-}
-
 .fb-like {
     height: 100px;
     width: 600px;
@@ -243,12 +202,6 @@ article div div div h3:hover {
 
 article div div div p:hover {
 	background-color:#5DADE2;
-}
-
-* {
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
 }
 
 .todo {
